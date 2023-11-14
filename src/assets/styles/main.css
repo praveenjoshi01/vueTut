@@ -1,0 +1,15 @@
+/* General styles for the application */
+body {
+  font-family: Arial, sans-serif;
+  /* Other general styles */
+}
+.container {
+  display: flex;
+}
+.table-column {
+  flex: 1;
+}
+.details-column {
+  flex: 1;
+  padding-left: 20px; /* Or any other spacing you prefer */
+}

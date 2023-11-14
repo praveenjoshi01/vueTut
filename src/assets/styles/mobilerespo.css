@@ -1,0 +1,26 @@
+/* Mobile-specific styles */
+@media (max-width: 768px) { /* or another breakpoint that suits your design */
+  .content {
+    flex-direction: column; /* Stack the columns vertically on small screens */
+  }
+
+  .table-column,
+  .text-column {
+    flex: none; /* Do not allow the table and text column to grow */
+    width: 100%; /* Each column should take full width */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .text-column-header {
+    text-align: center; /* Center-align the text column header on small screens */
+  }
+
+  table {
+    /* Adjust table layout for small screens */
+    /* For example, you might want to wrap the table in a div with overflow-x: auto to allow horizontal scrolling */
+  }
+
+  button {
+    width: 100%; /* Full-width buttons are easier to tap on a mobile device */
+  }
+}

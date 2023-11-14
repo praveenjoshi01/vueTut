@@ -1,0 +1,68 @@
+/* table.css - Specific table styles can go here */
+table {
+  width: 100%;
+  /* Other table styles */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sse-project {
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.sse-project h1 {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  background-color: #8C8C8C;
+}
+
+.table-column {
+  flex: 1;
+  background-color: #D3D3A2;
+}
+
+.text-column {
+  flex: 1;
+  background-color: #EAE6CD;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.text-column-header {
+  background-color: #D3D3A2; /* Color to match the table header */
+  padding: 10px; /* Adjust padding to match the table header */
+  margin: 0; /* Remove default margins from the h2 element */
+  text-align: left; /* Align text to the left */
+}
+
+.text-column {
+  flex: 1;
+  background-color: #EAE6CD;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.text-column p {
+  text-align: left; /* Ensures the text within the paragraph is left-aligned */
+  /* Additional styles for the paragraph can go here */
+}
